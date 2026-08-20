@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- This is a Header Section -->
+    <header>
+        <h1>Welcome to My Profile Page</h1>
+        <hr>
+        <p>I'm a software development fellow from HCMF learning web development.</p>
+    </header>
+    
+    <!-- This is a Navigation Section -->
+    <hr>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#about">Profile</a></li>
+            <li><a href="#projects">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#About_Me">About Me</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <!-- This is a Main Content Section -->
+    <main>
+        <!-- This is a About Section -->
+         <hr>
+        <section class="section-1" id="about">
+            <h2>My Profile</h2>
+            <img src="img/profile.jpg" alt="the image of boy from animation as Profile Picture" width="150" height="150">
+            <p>My name is Abubakar Usman Muhammad, and I am a software development fellow from HCMF in software development Track.</p>
+        </section>
+        
+        <!-- This is a Skills Section -->
+         <hr>
+        <section class="projects" id="projects">
+            <h2>Skills</h2>
+            <p>I have experience in web development, including HTML, CSS, and JavaScript.</p>
+            <strong class="skills">Skills:</strong>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Blockchain</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        
+        <!-- This is a Contact Section -->
+         <hr>
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <p>Reach out to me via the following methods:</p>
+            <ul>
+                <li>
+                    <p>Email me at : 
+                        <a href="mailto:abubakarusmanmuhammad@gmail.com">abubakarusmanmuhammad@gmail.com</a>
+                    </p>
+                </li>
+                <li>
+                    <p>Call me at : +234 903 123 4567</p>
+                </li>
+                <li>
+                    <p>WhatsApp me at : +234 903 123 4567</p>
+                </li>
+                <li>
+                    <p>Follow me on social media:</p>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/abubakar-usman-muhammad-123456789/">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/abkbyte">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://github.com/abubkar80">GitHub</a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- This is a About Me Section -->
+         <hr>
+        <section id="About_Me">
+            <h2>About Me</h2>
+            <p>I am passionate about technology and enjoy learning new programming languages and frameworks. I am currently focused on improving my skills in web development and blockchain technology.</p>
+        </section>
+
+        <!-- This is a Resume Section -->
+         <hr>
+        <section class="resume" id="resume">
+            <h2>Resume</h2>
+            <p>You can view my resume <a href="resume.pdf">here</a>.</p>
+        </section>
+
+        <!-- This is a Portfolio Section -->
+         <hr>
+        <section  class="portfolio" id="portfolio">
+            <h2>Portfolio</h2>
+            <p>Check out some of my projects:</p>
+            <ul>
+                <li><a href="project1.html">Project 1</a></li>
+                <li><a href="project2.html">Project 2</a></li>
+                <li><a href="project3.html">Project 3</a></li>
+            </ul>
+        </section>
+
+        <hr>
+        <h1>Contact Form</h1>
+        <form class="form-style">
+            <label for="fname"> First Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Please Enter your name" required><br><br>
+            
+            <label for="lname"> Last Name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Please Enter your last name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Please Enter your email" required><br><br>
+
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone" placeholder="Please Enter your phone number"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Please Enter your message" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-style">
+        <p>&copy; 2024 Abubakar Usman Muhammad — FEL-2026019. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
