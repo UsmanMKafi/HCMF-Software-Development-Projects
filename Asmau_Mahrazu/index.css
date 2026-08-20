@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif, helvetica;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: black;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    font-size: 17px;
+    padding: top 10px;
+}
+nav {
+    background-color:goldenrod;
+    color: black;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-list {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color:darkgoldenrod;
+    color: black;
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 30px;
+    align-items: center; height: 50px;
+
+}
+.nav-list-item {
+    float: left; 
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color ;
+}
+.nav-list a:hover {
+    color: beige;
+}
+
+.one {
+    color: black; 
+    text-decoration: none; 
+    display: block; 
+    padding: 14px 16px; 
+    list-style-type: none;
+}
+.two {
+    color: black; 
+    text-decoration: none; 
+    display: block; 
+    padding: 14px 16px; 
+    list-style-type: none;
+}
+.three {
+    color: black; 
+    text-decoration: none; 
+    display: block; 
+    padding: 14px 16px; 
+    list-style-type: none;
+}
+.h1{
+    text-align: center; 
+    margin-top: 20px; 
+    color: black;
+}
+#h2{
+    text-align: center; 
+    margin-top: 20px; 
+    color: black;
+}
+#h3{
+    text-align: center; 
+    margin-top: 10px; 
+    color: black;
+}
+#h4{
+    text-align: left; 
+    margin-top: 20px; 
+    color: black;
+}
+.profile-pic {
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50%; 
+    width: 700px; 
+    height: 700px; 
+    
+}
+.profile-pic{ 
+    max-width: 100%; 
+    height: auto; 
+    box-shadow: 0 3px 3px -1px goldenrod;   
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    align-self: center;
+}
+.profile-pic:hover{
+    transform: translateY(-3px);
+
+}
+.p1 {
+    text-align: center; 
+    margin-top: 20px; 
+    color: black;
+}
+.p2 {
+    text-align: center; 
+    margin-top: 20px; 
+    color: black;
+}
+.p3 {
+    text-align: justify; 
+    margin-top: 20px; 
+    color: black;
+}
+.p4 {
+    text-align: center; 
+    margin-top: 20px; 
+    color: black;
+}
+
+.footer { 
+    background-color: darkgoldenrod;
+    color: black; padding: 45px 25px;
+     justify-content: space-around;
+     display: flex;
+     gap: 25px;
+    flex-direction: row;
+    text-align: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+
+.f1 {text-align: left;
+    flex: 1;
+}
+.f2{text-align: center;
+    flex: 1;
+}
+.f2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color ;
+}
+.f3{text-align: right;
+    flex: 1;
+}
+#section1 { content: inherit; border-style: initial; 
+    border-color: goldenrod; 
+    border-width: 5px; 
+    padding: 20px; margin: 50px auto;
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 3px 5px 2px rgb(145, 106, 7);   
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+#section1:hover{
+    transform: translateY(-5px);
+}
+/* SKILLS SECTION */            
+
+#section1 {
+    padding: 70px;
+    background-color:white;
+}
+.section-title {
+    text-align: center;
+    font-size: 42px;
+    color:black;
+    margin: 0;
+    font-weight: bold;
+}
+/* Description */
+
+.skills-intro {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+/* THREE COLUMNS */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skill-box {
+    border: 2px solid goldenrod;
+    border-radius: 12px;
+    padding: 25px;
+    min-height: 580px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 2px -1px goldenrod;
+}
+.skill-box:hover {
+    transform: translateY(-5PX);
+
+}
+
+.skill-box h3 {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.skill {
+    background-color: #b87a06;
+    color: black;
+    padding: 13px 18px;
+    margin-bottom: 12px;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media (max-width: 600px) {
+
+    #section1 {
+        padding: 50px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .skills-intro {
+        font-size: 16px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill-box {
+        min-height: auto;
+    }
+
+}
